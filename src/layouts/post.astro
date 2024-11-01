@@ -192,14 +192,7 @@ let prevUrl = (allPosts && (postIndex < allPosts.length) ) ? allPosts[allPosts.l
             <Search />
           </h1>
           <slot />
-          <div class="flex align-middle justify-center mt-4">
-            <a
-              class="inline-block items-center rounded px-5 py-3 text-sm font-medium pay-button"
-              href="https://miaoyan.app/cats.html?name=潮流周刊"
-              target="_blank"
-              rel="noreferrer">你觉得有收获吗？❤️</a
-            >
-          </div>
+
           <hr />
           <div class="flex justify-between md:flex-row flex-col mt-2 post-footer">
             <div class="text-gray-800 dark:text-gray-200 flex-1">
@@ -213,7 +206,7 @@ let prevUrl = (allPosts && (postIndex < allPosts.length) ) ? allPosts[allPosts.l
             <div class="md:mt-0 mt-4 flex-1 text-right">
               {nextUrl ? <a href={nextUrl}>下一篇 |</a> : null}
               {prevUrl ? <a href={prevUrl}>上一篇 |</a> : null}
-              <a href="/">去首页 |</a>
+              <a href="/">去首页</a>
               <a
                 href={`https://github.com/${SITE.githubId}/notes`}
                 title="Star"
@@ -222,7 +215,6 @@ let prevUrl = (allPosts && (postIndex < allPosts.length) ) ? allPosts[allPosts.l
               >
                 | Github</a
               >
-              <a href="/rss.xml" title="Subscribe" target="_blank" class="xl:inline-block hidden"> | RSS</a>
             </div>
           </div>
         </div>

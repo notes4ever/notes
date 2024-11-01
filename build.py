@@ -20,7 +20,7 @@ if __name__ == "__main__":
             if name.endswith('.md'):
                 file_path = urllib.parse.quote(name)
                 old_title = name.split('.md')[0]
-                url = f'https://notes4ever.vercel.app/posts/{old_title}'
+                url = f'https://unixtea.com/posts/{old_title}'
                 title = f'第 {old_title.split("-")[0]} 期 - {old_title.split("-")[1]}'
                 readme_md = f'* [{title}]({url})\n'
                 num = int(old_title.split('-')[0])

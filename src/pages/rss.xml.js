@@ -16,7 +16,7 @@ export function GET() {
   return rss({
     title: "notes4ever",
     description: "notes4ever",
-    site: "https://notes4ever.vercel.app/",
+    site: "https://unixtea.com",
     items: posts.map((item) => {
       const [issueNumber, issueTitle] = item.url.split("/posts/")[1].split("-");
       const title = `第${issueNumber}期 - ${issueTitle}`;

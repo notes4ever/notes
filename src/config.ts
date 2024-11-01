@@ -1,6 +1,6 @@
 export const SITE = {
   title: 'notes4ever',
-  author: 'ever',
+  author: 'notes4ever',
   description: 'notes4ever',
   keywords: 'notes4ever,notes',
   icon:

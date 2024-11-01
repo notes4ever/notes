@@ -214,9 +214,8 @@ let prevUrl = (allPosts && (postIndex < allPosts.length) ) ? allPosts[allPosts.l
               {nextUrl ? <a href={nextUrl}>下一篇 |</a> : null}
               {prevUrl ? <a href={prevUrl}>上一篇 |</a> : null}
               <a href="/">去首页 |</a>
-              <a href={`https://twitter.com/${SITE.twitterId}`} target="_blank" title="Follow">Twitter</a>
               <a
-                href={`https://github.com/${SITE.githubId}/weekly`}
+                href={`https://github.com/${SITE.githubId}/notes`}
                 title="Star"
                 target="_blank"
                 class="lg:inline-block hidden"
@@ -231,16 +230,16 @@ let prevUrl = (allPosts && (postIndex < allPosts.length) ) ? allPosts[allPosts.l
           is:inline
           id="giscus-script"
           src="https://giscus.app/client.js"
-          data-repo={SITE.repo}
-          data-repo-id="R_kgDOG4TsQA"
+          data-repo="notes4ever/notes"
+          data-repo-id="R_kgDONI64rA"
           data-category="General"
-          data-category-id="DIC_kwDOG4TsQM4CR4bV"
+          data-category-id="DIC_kwDONI64rM4Cj5JL"
           data-mapping="title"
           data-strict="0"
           data-reactions-enabled="1"
           data-emit-metadata="0"
           data-input-position="bottom"
-          data-theme="https://gw.alipayobjects.com/os/k/weekly/comment.css"
+          data-theme="light"
           data-lang="zh-CN"
           crossorigin="anonymous"
           async></script>
